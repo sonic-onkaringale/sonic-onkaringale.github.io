@@ -1,1 +1,131 @@
-<h1>Hello World</h1>
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+          rel="stylesheet"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+<!--  <link rel="manifest" href="site.webmanifest">-->
+<!--  <link rel="apple-touch-icon" href="icon.png">-->
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="stagger/main.css">
+  <link rel="stylesheet" href="Cursor/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+
+<!-- Add your site or application content here -->
+
+<!--<div class="stagger-visualizer"></div>-->
+<!-- Canvas -->
+<canvas class="orb-canvas"></canvas>
+<!-- Overlay -->
+<div class="overlay">
+  <!-- Overlay inner wrapper -->
+  <div class="overlay__inner">
+<!--    <div class="cursor">-->
+<!--      <div class="cursor__ball cursor__ball&#45;&#45;big ">-->
+<!--        <svg height="30" width="30">-->
+<!--          <circle cx="15" cy="15" r="12" stroke-width="0"></circle>-->
+<!--        </svg>-->
+<!--      </div>-->
+
+<!--      <div class="cursor__ball cursor__ball&#45;&#45;small">-->
+<!--        <svg height="10" width="10">-->
+<!--          <circle cx="5" cy="5" r="4" stroke-width="0"></circle>-->
+<!--        </svg>-->
+<!--      </div>-->
+<!--    </div>-->
+
+
+    <!-- Title -->
+    <h1 class="overlay__title">
+      Hello, I am
+      <span class="text-gradient">Onkar Ingale</span>; <br> Passionate Software Developer
+    </h1>
+
+    <!-- Description -->
+    <p class="overlay__description">
+<!--      Currently pursuing -->
+<!--       <strong>Bachelor of Technology in Computer Science Engineering</strong>-->
+
+<!--      <br><br><br>-->
+      <strong> I am a 4th-year Computer Science Engineering student with  a passion for <br><span class="text-gradient">Backend Systems</span> and <span class="text-gradient">Android Development</span>.
+
+        </strong>
+<!--      <strong>We're going to talk accessibility, too.</strong>-->
+    </p>
+    <!-- Buttons -->
+<!--    <div class="overlay__btns">-->
+
+<!--      <button class="overlay__btn overlay__btn&#45;&#45;transparent">-->
+<!--        <a href="https://georgefrancis.dev/writing/create-a-generative-landing-page-and-webgl-powered-background/" target="_blank">-->
+
+<!--          View Tutorial-->
+<!--        </a>-->
+<!--      </button>-->
+
+<!--      <button class="overlay__btn overlay__btn&#45;&#45;colors_generate">-->
+<!--        <span>Randomise Colors</span>-->
+<!--        <span class="overlay__btn-emoji">🎨</span>-->
+<!--      </button>-->
+
+<!--    </div>-->
+
+    <div class="overlay__btns">
+
+      <button class="overlay__btn overlay__btn--transparent">
+        <a  href="work.html" >
+
+         Projects/Work
+        </a>
+      </button>
+
+<!--      <button class="overlay__btn overlay__btn&#45;&#45;colors_generate" >-->
+<!--        <span>Work</span>-->
+<!--      </button>-->
+      <button class="overlay__btn overlay__btn--colors_generate" >
+          <a class="the-a" target="_blank" href="OnkarIngale_Resume.pdf" >
+
+            Download Resume
+
+          </a>
+      </button>
+
+    </div>
+  </div>
+</div>
+
+<!--Circle Cursor-->
+
+<!--<script type="module" src="Cursor/main.js"></script>-->
+<script type="module" src="main.js"></script>
+<!--<script type="module" src="stagger/main.js"></script>-->
+<!--<script src="stagger/ext.js"></script>-->
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

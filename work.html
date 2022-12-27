@@ -1,0 +1,314 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Work</title>
+  <meta name="description" content="">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+          rel="stylesheet"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <!--  <link rel="manifest" href="site.webmanifest">-->
+  <!--  <link rel="apple-touch-icon" href="icon.png">-->
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="stagger/main.css">
+  <link rel="stylesheet" href="slider/main.css">
+  <link rel="stylesheet" href="Cursor/main.css">
+<!--  <link rel="stylesheet" href="videoscroll/main.css">-->
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+
+
+<!-- Add your site or application content here -->
+
+<!--<div class="stagger-visualizer"></div>-->
+<!-- Canvas -->
+<canvas class="orb-canvas"></canvas>
+<!-- Overlay -->
+<div class="overlay-light" id="inner">
+
+  <div class="overlay__inner" >
+
+    <!-- Title -->
+    <h1 class="overlay__title">
+
+      <span  class="text-gradient">Projects</span>
+    </h1>
+<!--  <p class="overlay__description">-->
+
+<!--    <strong> I am a 4th year Computer Science Engineering student with a passion for <span class="text-gradient">Backend Systems</span> and <span class="text-gradient">Android Development</span>.-->
+
+<!--    </strong>-->
+
+<!--  </p>-->
+
+
+    <div class="product">
+
+
+      <h1 class="overlay__title">
+
+        <span>Footwear Application : Freelance Project</span>
+      </h1>
+
+      <div class="overlay__description"  >
+
+<!--        Gallery-->
+        <!-- Slider container -->
+        <div class="slider ">
+          <!-- slide s1 1 -->
+          <div class="slide s1 ">
+            <video  width="100%"  tabindex="0" autoplay="autoplay" loop    preload="auto">
+              <!--        <source src="https://www.html5rocks.com/en/tutorials/video/basics/devstories.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;"></source>-->
+
+              <source src="comp_footwearui.mp4">
+              <p>Sorry, your browser does not support the &lt;video&gt; element.</p>
+            </video>
+          </div>
+
+
+          <div class="slide s1">
+            <img onclick="imgDisplay(this);" src="footwear/Slide1.png" alt="" />
+          </div>
+
+          <div class="slide s1">
+            <img onclick="imgDisplay(this);" src="footwear/1.png" alt="" />
+          </div>
+          <div class="slide s1">
+            <img onclick="imgDisplay(this);" src="footwear/2.png" alt="" />
+          </div>
+          <div class="slide s1">
+            <img onclick="imgDisplay(this);" src="footwear/3.png" alt="" />
+          </div>
+          <div class="slide s1">
+            <img onclick="imgDisplay(this);" src="footwear/4.png" alt="" />
+          </div>
+          <div class="slide s1">
+            <img onclick="imgDisplay(this);" src="footwear/5.png" alt="" />
+          </div>
+          <div class="slide s1">
+            <img onclick="imgDisplay(this);" src="footwear/6.png" alt="" />
+          </div>
+          <div class="slide s1">
+            <img onclick="imgDisplay(this);" src="footwear/7.png" alt="" />
+          </div>
+          <div class="slide s1">
+            <img onclick="imgDisplay(this);" src="footwear/8.png" alt="" />
+          </div>
+
+          <!-- Control buttons -->
+          <button class="btn btn-next bn1"> > </button>
+          <button class="btn btn-prev bp1">
+            < </button>
+
+        </div>
+
+        <br>
+
+        <h2>
+          Description
+        </h2>
+        <p>
+          <strong>
+          This was a freelance Android work which had only requirement
+          that was to make products searchable in English and Marathi.
+          <br> This project was built on top of View based & Composed based UI Toolkits.
+          <br>It uses ObjectBox which is a High-performance NoSQL database and faster than Room Database.
+          <br>It utilizes Kotlin Coroutines to manage asynchronous tasks.
+
+
+
+          </strong>
+        </p>
+        <br>
+        <h2>
+          Features/Keypoints
+        </h2>
+        <ul>
+          <strong>
+          <li>Uses Amazon S3 for saving server cost as the client's use-case was limited to the internal operations.</li>
+          <li>All Product metadata is serialized into one Json file.</li>
+          <li>Saves the metadata and images of the product separately in S3.</li>
+          <li>Intelligently handles synchronizations.</li>
+          <li>Uses Material3 Design and Relay for Figma.</li>
+          <li>It is Adaptive, layout changes based on the screen space available to it.</li>
+          </strong>
+        </ul>
+
+        <p>
+
+
+        </p>
+
+
+      </div>
+
+
+
+
+
+    </div>
+
+    <div class="product">
+
+
+      <h1 class="overlay__title">
+
+        <span>Multiple Linear Regression Application : Personal Project</span>
+      </h1>
+
+      <div class="overlay__description"  >
+
+        <!--        Gallery-->
+        <!-- Slider container -->
+        <div class="slider">
+          <!-- slide s1  -->
+          <div class="slide s2">
+            <video  width="100%"  tabindex="0" autoplay="autoplay" loop    preload="auto">
+              <!--        <source src="https://www.html5rocks.com/en/tutorials/video/basics/devstories.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;"></source>-->
+
+              <source src="mlr/video.webm">
+              <p>Sorry, your browser does not support the &lt;video&gt; element.</p>
+            </video>
+          </div>
+
+
+          <div class="slide s2">
+            <img  onclick="imgDisplay(this);" src="mlr/1.webp" alt="" />
+          </div>
+          <div class="slide s2">
+            <img onclick="imgDisplay(this);" src="mlr/2.webp" alt="" />
+          </div>
+          <div class="slide s2">
+            <img onclick="imgDisplay(this);" src="mlr/3.webp" alt="" />
+          </div>
+
+
+          <!-- Control buttons -->
+          <button class="btn btn-next bn2"> > </button>
+          <button class="btn btn-prev bp2">
+            < </button>
+
+        </div>
+
+
+        <br>
+        <h2>
+          Description
+        </h2>
+        <p>
+          <strong>
+          Multiple Linear Regression Android App!
+          <br>This app allows you to train a multiple linear regression model and make predictions on the go using an algorithm written from scratch in C++ and interacting through the Java Native Interface (JNI).
+          <br>Multiple linear regression is a statistical method used to model the linear relationship between a dependent variable and one or more independent variables.
+          <br>With this app, you can easily input your data and let the app handle the rest, providing you with accurate predictions in real-time.
+          <br>Whether you're a student learning about multiple linear regression for the first time, or a professional looking for a quick and efficient tool for your analysis, this app has you covered.
+          </strong>
+        </p>
+        <br>
+        <h2>
+          Features/Keypoints
+        </h2>
+        <ul>
+          <strong>
+          <li>Takes input as CSV file.</li>
+          <li>Automatically drops the columns with non-numerical values</li>
+          <li>Friendly UI.</li>
+          <li>Gives UI for predicting Trained Model.</li>
+            </strong>
+        </ul>
+        <br>
+        <h2>
+          Links
+        </h2>
+        <h3><a href="https://play.google.com/store/apps/details?id=com.onkaringale.multilinearreg"><span class="text-gradient">Play Store</span> </a></h3>
+        <h3><a href="https://github.com/sonic-onkaringale/Multiple-Linear-Regression-Android-App-using-JNI-Cpp-Calls"><span class="text-gradient">Github</span></a></h3>
+<!--        <ul>-->
+<!--&lt;!&ndash;          <ol class="transparent-ol"><a href='https://play.google.com/store/apps/details?id=com.onkaringale.multilinearreg&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img height="30%" width="40%" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a></ol>&ndash;&gt;-->
+<!--          <ol class="transparent-ol"></ol>-->
+<!--          <ol class="transparent-ol"></ol>-->
+
+<!--        </ul>-->
+        <p>
+
+
+        </p>
+
+
+      </div>
+
+
+
+
+
+    </div>
+
+
+
+</div>
+
+</div>
+<!--Circle Cursor-->
+<!--        Full Screen Container-->
+<div id="container"  >
+  <span   onclick="imgHide();" class="closebtn">&times</span>
+  <img id="fullImg">
+</div>
+<!--<script type="module" src="Cursor/main.js"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js" integrity="sha512-uOsadAxj/qq4rCTYfzn0z+JjaUyXL0l4ufDjCS+RKnIllv0JTdY30i8DgWYX4TIQvxH62aVF27BCPcghyCcIHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>-->
+<script type="module" src="videoscroll/main.js"></script>
+<script src="slider/main.js"></script>
+<script type="module" src="main.js"></script>
+<script type="module" src="stagger/main.js"></script>
+<script src="stagger/ext.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
+
+
+<!--        Gallery-->
+<!-- Slider container -->
+<!--<div class="slider">-->
+<!--  <div class="slide s2">-->
+<!--    <video  width="100%"  tabindex="0" autoplay="autoplay" loop    preload="auto">-->
+<!--      &lt;!&ndash;        <source src="https://www.html5rocks.com/en/tutorials/video/basics/devstories.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;"></source>&ndash;&gt;-->
+
+<!--      <source src="footwearUi.m4v">-->
+<!--      <p>Sorry, your browser does not support the &lt;video&gt; element.</p>-->
+<!--    </video>-->
+<!--  </div>-->
+
+
+<!--  <div class="slide s2">-->
+<!--    <img onclick="imgDisplay(this);" src="footwear/Slide1.png" alt="" />-->
+<!--  </div>-->
+
+
+<!--  &lt;!&ndash; Control buttons &ndash;&gt;-->
+<!--  <button class="btn btn-next bn2"> > </button>-->
+<!--  <button class="btn btn-prev bp2">-->
+<!--    < </button>-->
+
+<!--</div>-->
