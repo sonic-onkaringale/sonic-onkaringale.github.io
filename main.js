@@ -27,7 +27,7 @@ class ColorPalette {
     setColors() {
         // pick a random hue somewhere between 220 and 360
         // this.hue = ~~random(220, 360);
-        this.hue = 326;
+        this.hue = 342;
         console.log("Hue Color : "+this.hue)
         this.complimentaryHue1 = this.hue + 30;
         this.complimentaryHue2 = this.hue + 60;
